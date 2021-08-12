@@ -1,15 +1,15 @@
 // import Calculadora from "./components/Calculadora";
-import Effect from "./components/Effect";
+// import Effect from "./components/Effect";
+// import LayoutEffect from "./components/LayoutEffect";
+// import Ref from "./components/Ref";
+
+import Memorize from "./components/memos/Memorize";
 
 function App() {
 	return (
-		<Effect />
-		// <div>
-		// 	<h1>Calculadora PWA </h1>
-		// 	<div>
-		// 		<Calculadora />
-		// 	</div>
-		// </div>
+		<div>
+			<Memorize />
+		</div>
 	);
 }
 
